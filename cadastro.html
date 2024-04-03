@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cadastro</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="formulario">
+    <h1 id="crie">Crie seu cadastro:</h1>
+
+    <div id="cadastro">
+        <form action="" method="post">
+            <p>
+                Nome: 
+                <br>
+                <input type="text" name="nome" size="30">
+            </p>
+            <p>
+                Data de nascimento: 
+                <br>
+                <input type="date" name="nascimento" size="30">
+            </p>
+            <p>
+                Telefone: 
+                <br>
+                <input type="text" name="telefone" size="30">
+            </p>
+            <p>
+                Endereço: 
+                <br>
+                <input type="text" name="endereco" size="30">
+            </p>
+            <p>
+                Email: 
+                <br>
+                <input type="email" name="email" size="30">
+            </p>
+            <p>
+                Digite uma senha: 
+                <br>
+                <input type="password" name="senha" size="30">
+            </p>
+            <p>
+                Repita a senha: 
+                <br>
+                <input type="password" name="senha2" size="30">
+            </p>
+
+            <p>Deseja receber informações sobre nossos produtos?
+                <br>
+                <input type="radio" name="info" value="sim" checked> Sim &nbsp; &nbsp;
+                <input type="radio" name="info" value="nao"> Não &nbsp; &nbsp;
+                <input type="radio" name="info" value="talvez"> Talvez
+            </p>
+            <p>Quais são os produtos que você mais compra?
+                <br>
+                <input type="checkbox" name="prod" value="vestuarios"> Consoles &nbsp; &nbsp;
+                <input type="checkbox" name="prod" value="eletronicos"> Jogos &nbsp; &nbsp;
+                <input type="checkbox" name="prod" value="esportivos"> Acessórios &nbsp; &nbsp;
+                <input type="checkbox" name="prod" value="automotivos"> Controles &nbsp; &nbsp;
+            </p>
+            <p>
+                Escreva um comentário:
+                <br>
+                <textarea name="comentario" cols="50" rows="5">
+                    
+                </textarea>
+            </p>
+            <p>
+                <button type="submit" value="cadastrar">Cadastrar</button>
+                <button type="reset" value="limpar">Limpar</button>
+            </p>
+            
+        </form>
+    </div>
+</body>
+</html>
